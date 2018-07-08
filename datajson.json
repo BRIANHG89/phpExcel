@@ -1,0 +1,17 @@
+          [{"id":"4",
+          "cedula":"093456666",
+          "nombre":"aaa",
+          "direccion":"fco. segura y abel castillo",
+          "telefono":"912546524",
+          "email":"aaa@gmail.com",
+          "fecha":"2017-9-17"
+          },
+           {
+          "id":"5",
+          "cedula":"093456611",
+          "nombre":"rene",
+          "direccion":"la 11 y fco segura",
+          "telefono":"912546524",
+          "email":"bryan@gmail.com",
+          "fecha":"2017-9-17"
+           }]';

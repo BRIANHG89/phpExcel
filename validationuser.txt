@@ -1,0 +1,15 @@
+                $error = '';
+		
+		$sqlUser = "SELECT id FROM usuarios WHERE usuario = '$usuario'";
+		$resultUser=$mysqli->query($sqlUser);
+		$rows = $resultUser->num_rows;
+		
+		if($rows > 0) {
+		  $error = "El usuario ya existe";
+		  } else {
+		
+		 //*se castea el campo nombre para evitar error al insertar un                            nuevo usuario*/
+
+		 $sqlPerson = "INSERT INTO personal (nombre) VALUES('$nombre')";
+		 $resultPerson=$mysqli->query($sqlPerson);
+		 $idPersona = $mysqli->insert_id;

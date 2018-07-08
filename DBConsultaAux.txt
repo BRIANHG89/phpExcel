@@ -1,0 +1,12 @@
+2017-09-19 13:16:53 >>> Error en el query: ( You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '
+            '',
+            '',
+            '',
+            )' at line 4 ) INSERT INTO users (cedula, nombre,direccion,
+  	 	telefono,email,fecha) 
+    VALUES ('',
+            ,
+            '',
+            '',
+            '',
+            )
